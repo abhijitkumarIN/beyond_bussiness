@@ -205,10 +205,7 @@ body {
     color: white;
 }
 
-.second_page {
-    padding: 5px;
-    padding-bottom: 20px;
-}
+
 
 .title_back {
 
@@ -249,8 +246,75 @@ body {
 .title-medium {
     color: white;
     font-size: 22px;
-    display: block;
+    display: block !important;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
     font-weight: 400;
     text-align: left;
+}
+.button_share_contact2 {
+    border: 1.4px solid white;
+    border-radius: 30px;
+    padding: 6px 30px;
+    background-color: white;
+    color: var(--color_secondary);
+}
+
+.button_share_contact2:hover {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.button_share_contact2:hover > a {
+    color: white;
+}
+
+.button_share_contact2 a {
+    color: var(--color_secondary);
+    font-size: 11.5px;
+    text-decoration: none;
+
+}
+._webiste2 a {
+    color: white ;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+._webiste2 a :hover {
+    color: white;
+}
+
+.icon_round2 {
+    width: 28px !important;
+    height: 28px;
+    border-radius: 50%;
+    border: 2px solid  white;
+    color: white;
+    cursor: pointer;
+}
+
+
+.icon_round2:hover {
+    background: var(--color_secondary) !important;
+}
+
+.icon_round2 a {
+    color: white;
+}
+
+.icon_round2:hover a {
+    color: white;
+}
+.payment {
+    padding: 0px;
+    padding-bottom: 20px;
+}
+.payment_bg{
+    background-image: url("assets/payments.jpg");
+    background-position: 50% 70%;
+    background-position: bottom;
+    background-size: cover;
+    flex: auto;
+    position: relative;
+    width: 100%;
+    height: 73%;
 }
