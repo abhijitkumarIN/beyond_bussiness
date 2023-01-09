@@ -243,6 +243,7 @@ body {
 .page_four_gradient {
     background-image: linear-gradient(135deg, #FD6E6A, #FFC600);
 }
+
 .title-medium {
     color: white;
     font-size: 22px;
@@ -251,6 +252,7 @@ body {
     font-weight: 400;
     text-align: left;
 }
+
 .button_share_contact2 {
     border: 1.4px solid white;
     border-radius: 30px;
@@ -263,7 +265,7 @@ body {
     background-color: rgba(255, 255, 255, 0);
 }
 
-.button_share_contact2:hover > a {
+.button_share_contact2:hover>a {
     color: white;
 }
 
@@ -273,8 +275,9 @@ body {
     text-decoration: none;
 
 }
+
 ._webiste2 a {
-    color: white ;
+    color: white;
     font-size: 13px;
     text-decoration: none;
 }
@@ -287,7 +290,7 @@ body {
     width: 28px !important;
     height: 28px;
     border-radius: 50%;
-    border: 2px solid  white;
+    border: 2px solid white;
     color: white;
     cursor: pointer;
 }
@@ -304,11 +307,13 @@ body {
 .icon_round2:hover a {
     color: white;
 }
+
 .payment {
     padding: 0px;
     padding-bottom: 20px;
 }
-.payment_bg{
+
+.payment_bg {
     background-image: url("assets/payments.jpg");
     background-position: 50% 70%;
     background-position: bottom;
@@ -317,4 +322,36 @@ body {
     position: relative;
     width: 100%;
     height: 73%;
+}
+
+/* vertical pagiantion */
+.swiper-pagination-vertical.swiper-pagination-bullets,
+.swiper-vertical>.swiper-pagination-bullets {
+    right: 87px !important;
+    top: 50%;
+    transform: translate3d(0px, -50%, 0);
+}
+
+.button_share_contact3 {
+    border-radius: 30px;
+
+    border: none;
+    background-image: linear-gradient(135deg, #FD6E6A, #FFC600);
+    padding: 8px 30px;
+    /* background-color: var(--color_secondary); */
+    color: white;
+    font-size: 12px;
+}
+
+.animation_flip {
+    animation: mymove 1s alternate-reverse;
+    animation-iteration-count: unset;
+    transition: all 0.3s ease-in-out;
+}
+
+@keyframes mymove {
+    50% {
+        transform: rotateY(0deg);
+        transform-origin: 60px;
+    }
 }
